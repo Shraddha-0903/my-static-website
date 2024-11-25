@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Start your development with Meyawo landing page.">
+    <meta name="author" content="Devcrud">
+    <title>Shraddha Singh</title>
+    <!-- font icons -->
+    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+    <!-- Bootstrap + Meyawo main styles -->
+	<link rel="stylesheet" href="assets/css/meyawo.css">
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+
+    <!-- Page Navbar -->
+    <nav class="custom-navbar" data-spy="affix" data-offset-top="20">
+        <div class="container">
+            <a class="logo" href="#"></a> 
+	<ul class="nav">
+    <li class="item">
+        <a class="link" href="#home">Home</a>
+    </li>
+    <li class="item">
+        <a class="link" href="#about">About</a>
+    </li>
+    <li class="item">
+        <a class="link" href="#portfolio">Research Paper</a>
+    </li>
+    <li class="item">
+        <a class="link" href="#blog">Experience</a>
+    </li>
+    <li class="item">
+        <a class="link" href="#contact">Contact</a>
+    </li>
+</ul>
+
+<a href="javascript:void(0)" id="nav-toggle" class="hamburger hamburger--elastic">
+    <div class="hamburger-box">
+        <div class="hamburger-inner"></div>
+    </div>
+</a>
+
+<!-- CSS Styles -->
+<style>
+    /* Basic styling for the nav links */
+    .nav {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .item {
+        margin: 0 15px;
+    }
+
+    .link {
+        text-decoration: none;
+        color: #333; /* Default color */
+        font-size: 18px;
+        font-weight: bold;
+        position: relative;
+        transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+    }
+
+    /* Hover effect */
+    .link:hover {
+        color: #007bff; /* Change color on hover */
+        transform: scale(1.1); /* Slightly enlarge the item */
+    }
+
+    /* Underline animation */
+    .link::after {
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 2px;
+        background: #007bff;
+        bottom: 0;
+        left: 50%;
+        transition: width 0.3s ease, left 0.3s ease;
+    }
+
+    .link:hover::after {
+        width: 100%;
+        left: 0;
+    }
+
+    /* Hamburger Menu */
+    .hamburger--elastic .hamburger-box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 30px;
+        height: 20px;
+    }
+
+    .hamburger--elastic .hamburger-inner {
+        width: 100%;
+        height: 4px;
+        background-color: #333;
+        transition: all 0.3s ease;
+    }
+
+    .hamburger--elastic:hover .hamburger-inner {
+        background-color: #007bff; /* Change hamburger color on hover */
+    }
+</style>
+        
+           
+
+
+            </a>
+        </div>          
+    </nav><!-- End of Page Navbar -->
+
+    <!-- page header -->
+<header id="home" class="header">
+    <div class="overlay"></div>
+    <div class="header-content container">
+        <h1 class="header-title">
+            <span class="up">HI!</span>
+            <span class="down" id="typewriter">I am Shraddha Singh</span>
+        </h1>
+        <p class="header-subtitle">CLOUD ANALYST | WEB DEVELOPER | RESEARCHER</p>
+        
+        <!-- Centered Button -->
+        <div class="button-container">
+            <button class="btn btn-primary">Visit My Works</button>
+        </div>
+    </div>     
+</header>
+
+<!-- CSS Styles -->
+<style>
+    /* Typewriter effect */
+    #typewriter {
+        display: inline-block;
+        font-size: 40px;
+        white-space: nowrap;
+        overflow: hidden;
+        border-right: 3px solid #000;
+        width: 0;
+        animation: typing 3s steps(30) forwards, blink 0.75s step-end infinite;
+    }
+
+    @keyframes typing {
+        from {
+            width: 0;
+        }
+        to {
+            width: 100%;
+        }
+    }
+
+    @keyframes blink {
+        50% {
+            border-color: transparent;
+        }
+    }
+
+    .up {
+        font-size: 20px; /* Smaller font size for 'HI!' */
+    }
+
+    .down {
+        font-size: 40px;
+    }
+
+    .header-title {
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .header-subtitle {
+        text-align: center;
+        font-size: 10px;
+        margin-top: 10px;
+    }
+
+    /* Centering the Button */
+    .button-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px; /* Adds space above the button */
+    }
+
+    .btn {
+        padding: 10px 20px; /* Adjust padding for button size */
+        font-size: 16px; /* Adjust font size of the button */
+    }
+</style>
+
+
+    <!-- end of page header -->
+
+    <!-- about section -->
+    <section class="section pt-0" id="about">
+        <!-- container -->
+        <div class="container text-center">
+            <!-- about wrapper -->
+            <div class="about">
+                <div class="about-img-holder">
+                    <img src="Shraddha\meyawo\public_html\assets\imgs\Shraddha1.jpg" class="about-img" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                </div>
+                <div class="about-caption">
+                    <p class="section-subtitle">Who Am I ?</p>
+                    <h2 class="section-title mb-3">About Me</h2>
+                    <p>
+                        Hi, I'm Shraddha Singh, a passionate and results-driven tech enthusiast based in Mumbai. I hold a Master's in Information Technology with a specialization in Artificial Intelligence. With a strong foundation in programming and machine learning, I thrive on solving complex problems and continuously pushing boundaries to achieve excellence. I have recently cleared my AWS practitioner exam which helped me to gain knowledge on cloud fundamentals<br>
+Throughout my academic journey, I have undertaken innovative projects, such as developing machine learning models for sentiment analysis and early detection of prostate cancer. My hands-on experience includes working with Python, TensorFlow, and AWS, as well as web development using HTML, CSS, and JavaScript. I’ve also published research in reputable journals, showcasing my expertise in RNNs for advancing early cancer diagnosis.                    </p>
+                    <button class="btn-rounded btn btn-outline-primary mt-4">Download CV</button>
+                </div>              
+            </div><!-- end of about wrapper -->
+        </div><!-- end of container -->
+    </section> <!-- end of about section -->
+
+    <!-- service section -->
+    <section class="section" id="service">
+        <div class="container text-center">
+            <p class="section-subtitle"></p>
+            <h6 class="section-title mb-6">Skills</h6>
+            <!-- row -->
+            <div class="row">
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="Shraddha\meyawo\public_html\assets\imgs\html.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page" class="icon">
+				<style>
+.service-card:hover {
+    background-color: #e6e0f8; /* Light purple on hover */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+</style>
+                            <h6 class="title">Html & CSS</h6>
+                                                    </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="Shraddha\meyawo\public_html\assets\imgs\python.jfif" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page" class="icon">
+                            <h6 class="title">Python</h6>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="Shraddha\meyawo\public_html\assets\imgs\Amazon_Web_Services-Logo.wine.png" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page" class="icon">
+                            <h6 class="title">AWS</h6>
+                      
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="Shraddha\meyawo\public_html\assets\imgs\ML.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page" class="icon">
+                            <h6 class="title">Machine learning</h6>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div><!-- end of row -->
+        </div>
+    </section><!-- end of service section -->
+
+<!-- portfolio section -->
+<section class="section" id="portfolio">
+    <div class="container text-center">
+        <p class="section-subtitle"></p>
+        <h6 class="section-title mb-6">Research Paper</h6>
+        <!-- row -->
+        <div class="row justify-content-center">
+            <div class="col-md-10 col-lg-8"> <!-- Increased column size for wider card -->
+                <a href="https://www.irejournals.com/index.php/paper-details/1705472" class="portfolio-card">
+                    <span class="portfolio-card-overlay">
+                        <span class="portfolio-card-caption">
+                            <h4>Comparative Analysis on Prostate Cancer</h4>
+                            <p class="font-weight-normal">Used RNN, SVM, and MLP algorithms and did a comparative study by comparing accuracy and various other evaluation metrics.</p>
+                        </span>
+                    </span>
+                </a>
+            </div>
+        </div><!-- end of row -->
+    </div><!-- end of container -->
+</section> <!-- end of portfolio section -->
+
+<!-- CSS Styles -->
+<style>
+    .portfolio-card {
+        display: block;
+        position: relative;
+        text-align: center;
+        background-image: url('assets/imgs/folio-3.jpg'); /* Image as background */
+        background-size: cover; /* Stretch the image to cover the div */
+        background-position: center; /* Center the image */
+        height: 450px; /* Increased height for an even taller card */
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Stronger shadow for a bigger look */
+        margin-bottom: 30px; /* More space below the card */
+    }
+
+    .portfolio-card-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.6); /* Dark overlay for text visibility */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        color: #fff;
+    }
+
+    .portfolio-card:hover .portfolio-card-overlay {
+        opacity: 1;
+    }
+
+    .portfolio-card-caption h4 {
+        margin-bottom: 15px;
+        font-size: 26px; /* Larger font size for better visibility */
+        color: #fff;
+    }
+
+    .portfolio-card-caption p {
+        font-size: 18px; /* Larger font size */
+        color: #fff;
+    }
+</style>
+
+
+
+
+    <!-- pricing section -->
+    <section class="section" id="pricing">
+        <div class="container text-center">
+            <p class="section-subtitle"></p>
+            <h6 class="section-title mb-6">Certifications</h6>
+            <!-- row -->
+            <div class="pricing-wrapper">
+                <div class="pricing-card">
+                    <div class="pricing-card-header">
+                                            </div>
+                    <div class="pricing-card-body">
+                        <h6 class="pricing-card-title">AWS Practitioner</h6>
+                        <div class="pricing-card-list">
+                            <p>Issued By: Amazon Web Services (AWS)</p>
+                            <p>Completion Date: Sept 2024</p>
+                            <p>Foundational knowledge of AWS Cloud concepts.</p>
+                            <p>Understanding of global infrastructure and services.</p>
+			    <p>Insights into AWS pricing and security models.</p>
+                                                  </div>
+                    </div>
+                    <div class="pricing-card-footer">
+                        <span></span>
+                        <span></span>
+                    </div>                  
+                </div>
+
+
+                <div class="pricing-card">
+                    <div class="pricing-card-header">
+                                            </div>
+                    <div class="pricing-card-body">
+                        <h6 class="pricing-card-title">Python Masterclass</h6>
+                        <div class="pricing-card-list">
+                            <p>Issued By: Udemy</p>
+                            <p>Completion Date: May 2023</p>
+                            <p>Comprehensive Python programming mastery.</p>
+                            <p>Hands-on experience with Python libraries (NumPy, Pandas).</p>
+                            <p>Strong grasp of object-oriented programming.</p>
+                        </div>
+                    </div>
+                    <div class="pricing-card-footer">
+                        <span></span>
+                        <span></span>
+                    </div>
+                                    </div>
+
+
+
+                <div class="pricing-card">
+                    <div class="pricing-card-header">
+                                           </div>
+                    <div class="pricing-card-body">
+                        <h6 class="pricing-card-title">Cloud Infrastructure</h6>
+                        <div class="pricing-card-list">
+                            <p>Issued By: Brainovision Solution India</p>
+                            <p>Completion Date: August 2023 </p>
+                            <p>Proficiency in AWS CLI and management tools.</p>
+                            <p>Understanding of deploying and managing cloud applications.</p>
+                            <p>Insights into AWS infrastructure and core services.</p>
+                                                    </div>
+                    </div>
+                    <div class="pricing-card-footer">
+                        <span></span>
+                        <span></span>
+                    </div>
+                                    </div>
+
+            </div><!-- end of pricing wrapper -->
+        </div> <!-- end of container -->
+    </section><!-- end of pricing section -->
+
+    <!-- section -->
+    <section class="section-sm bg-primary">
+        <!-- container -->
+        <div class="container text-center text-sm-left">
+            <!-- row -->
+            <div class="row align-items-center">
+                <div class="col-sm offset-md-1 mb-4 mb-md-0">
+                    <h6 class="title text-light">Want to work or collab with me?</h6>
+                    <p class="m-0 text-light">Always feel Free to Contact</p>
+                </div>
+                <div class="col-sm offset-sm-2 offset-md-3">
+                    <button class="btn btn-lg my-font btn-light rounded">Drop Mail</button>
+                </div>
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </section> <!-- end of section -->
+
+    
+  
+    <!-- contact section -->
+    <section class="section" id="contact">
+        <div class="container text-center">
+            <p class="section-subtitle">How can you communicate?</p>
+            <h6 class="section-title mb-5">Contact Me</h6>
+            <!-- contact form -->
+            <form action="" class="contact-form col-md-10 col-lg-8 m-auto">
+                <div class="form-row">
+                    <div class="form-group col-sm-6">
+                        <input type="text" size="50" class="form-control" placeholder="Your Name" required>                 
+                    </div>
+                    <div class="form-group col-sm-6">
+                        <input type="email" class="form-control" placeholder="Enter Email"requried>                 
+                    </div>
+                    <div class="form-group col-sm-12">
+                        <textarea name="comment" id="comment" rows="6"   class="form-control" placeholder="Write Something"></textarea>
+                    </div>
+                    <div class="form-group col-sm-12 mt-3">
+                        <input type="submit" value="Send Message" class="btn btn-outline-primary rounded">                  
+                    </div>
+                </div>  
+            </form><!-- end of contact form -->
+        </div><!-- end of container -->
+    </section><!-- end of contact section -->
+
+    <!-- footer -->
+    <div class="container">
+        <footer class="footer">       
+            <p class="mb-0">Copyright <script>document.write(new Date().getFullYear())</script> &copy; <a>Shraddha</a></p>
+            <div class="social-links text-right m-auto ml-sm-auto">
+                <a href="javascript:void(0)" class="link"><i class="ti-facebook"></i></a>
+                <a href="javascript:void(0)" class="link"><i class="ti-google"></i></a>
+                <a href="javascript:void(0)" class="link"><i class="ti-pinterest-alt"></i></a>
+                <a href="javascript:void(0)" class="link"><i class="ti-instagram"></i></a>
+            </div>
+        </footer>
+    </div> <!-- end of page footer -->
+	
+	<!-- core  -->
+    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+
+    <!-- bootstrap 3 affix -->
+	<script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+
+    <!-- Meyawo js -->
+    <script src="assets/js/meyawo.js"></script>
+
+</body>
+</html>
